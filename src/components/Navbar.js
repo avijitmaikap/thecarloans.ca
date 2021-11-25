@@ -6,7 +6,7 @@ function NavBar() {
         <nav className="navbar navbar-expand-lg menus navbar-dark shadow fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#"> 
-            Avijit
+            TheCarLoans.ca
           </a>
           <button
             className="navbar-toggler"
@@ -31,17 +31,17 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#skills">
-                  Skills
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#projects">
-                  Projects
+                  Credit Resources
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#portfolio">
-                  Portfolio
+                  Inventory
                 </a>
               </li>
               <li className="nav-item">
@@ -57,7 +57,7 @@ function NavBar() {
             </ul>
   
             <button type="button" className="btn rounded-pill btn-rounded">
-              +1 728365413
+              +1 6477048938
               <span>
                 <i className="fas fa-phone-alt"></i>
               </span>

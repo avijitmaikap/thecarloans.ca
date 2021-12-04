@@ -1,6 +1,7 @@
 
 
 import "../styles/header.scss";
+import Form from "./form/Context";
 
 
 export default function Header() {
@@ -23,6 +24,7 @@ We help Canadians get approved for a car loan, regardless of your credit history
           {/* Col-2 for Intro */}
           <div className="col-md-6 intros text-end">
             {/* form  */}
+            <Form/> 
              
           </div>
         </div>

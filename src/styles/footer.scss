@@ -1,0 +1,52 @@
+@import "./global.scss";
+
+.footer {
+    background-color: $primary;
+    color: white;
+    padding: 3rem 0 1rem 0;
+
+    // Footer-1 styling
+
+    .footer-1 {
+        .brand-logo {
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+        .text {
+            font-weight: 550;
+            margin-bottom: 1.5rem;
+        }
+        .certificates {
+            img {
+                width: 75%;
+                height: 100%;
+            }
+        }
+    }
+
+    // Footer-2 styling
+
+    .footer-2 {
+        h4 {
+            font-size:1.5rem;
+            font-weight: 550;
+            margin-left: -2rem;
+        }
+        ul {
+            list-style-type: none;
+            text-align: left;
+            
+            li {
+                margin: .7rem 0;
+                a {
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

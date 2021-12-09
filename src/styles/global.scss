@@ -111,4 +111,19 @@ $black : #000;
   background : $secondary ;
 }
 
+// Social Icon styling
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+  * {
+    margin-right: 1rem;
+  }
+  
+}
+
+
   

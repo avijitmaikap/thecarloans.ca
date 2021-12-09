@@ -1,0 +1,18 @@
+@import "./global.scss";
+
+.social {
+    background-color: $primary;
+    border-bottom: 2px solid rgb(25, 25, 124);
+
+    .social-wrapper {
+        padding: 2rem 0;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .connect {
+            @include gradient;
+        }
+    }
+}

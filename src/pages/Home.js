@@ -9,6 +9,8 @@ import Partners from '../components/Partners'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
+import Social from '../components/Social'
 
 function Home() {
     return (
@@ -43,6 +45,8 @@ function Home() {
             <Partners/>
             <Testimonials/>
             <Faq/>
+            <Contact/>
+            <Social/>
             <Footer/>
             
 

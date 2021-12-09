@@ -1,3 +1,5 @@
+import {BsInstagram,BsTwitter, BsLinkedin, BsFacebook, BsPinterest} from "react-icons/bs"
+
 export const SectionTitle = ({ title }) => {
     return (
       <div className="row text-center">
@@ -116,6 +118,13 @@ export const SectionTitle = ({ title }) => {
         Good credit, bad credit or no credit <br/> we'll get you approved for your car loan today!
 
         </div>
+        <SocialIcons
+        fb = {<BsFacebook/>}
+        ig = {<BsInstagram/>}
+        tw = {<BsTwitter/>}
+        li = {<BsLinkedin/>}
+        pi = {<BsPinterest/>}
+        />
         <div className="certificates">
             <img src="https://www.approvalgenie.ca/content/themes/dealersite-default/dist/img/footer-google.png" alt=""/>
             <p>
@@ -144,6 +153,33 @@ export const SectionTitle = ({ title }) => {
     </div>
 
   </div>
+  }
+
+  export const ContactCol = ({icon, title, description}) => {
+    return <div className="col-4">
+    <div className="contact-wrapper">
+        <div className="contact-icon">
+            {icon}
+        </div>
+        <div className="contact-info">
+            <h2>{title}</h2>
+            <p>{description}</p>
+        </div>
+
+    </div>
+
+  </div>
+  }
+
+  export const SocialIcons = ({fb, ig, tw, li, pi}) => {
+    return <div className="social-icons">
+      {fb}
+      {ig}
+      {tw}
+      {li}
+      {pi} 
+
+    </div>
   }
 
 

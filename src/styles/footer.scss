@@ -3,7 +3,7 @@
 .footer {
     background-color: $primary;
     color: white;
-    padding: 3rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
 
     // Footer-1 styling
 
@@ -20,6 +20,7 @@
             margin-bottom: 1.5rem;
         }
         .certificates {
+            margin-top: 1rem;
             img {
                 width: 75%;
                 height: 100%;

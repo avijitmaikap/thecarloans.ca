@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/footer.scss";
-import { FooterOne, FooterTwo } from './Utilities';
+import { FooterOne, FooterTwo, FooterThree } from './Utilities';
+
 
 function Footer() {
     const links_1 = [
@@ -56,6 +57,9 @@ function Footer() {
                     <FooterTwo 
                         links = {links_2}
                         title = "Credit Resources"
+                    />
+                    <FooterThree 
+                        title ="Location"
                     />
 
                 </div>

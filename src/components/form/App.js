@@ -4,7 +4,8 @@ import StepZero from "./StepZero";
 import StepOne from "./StepOne";
 import StepThree from "./StepThree";
 import StepTwo from "./StepTwo";
-import "./styles/App.scss";
+import Success from "./Success"
+import "../../styles/form.scss";
 
 
 export default function App() {
@@ -29,8 +30,15 @@ export default function App() {
               return <StepThree val={value} />;
               break;
 
-            default:
+            case 4:
               return <Result val={value} />;
+              break;
+
+            case 5:
+              return <Success/>
+              
+            default: return null  
+
           }
         }}
       </Consumer>

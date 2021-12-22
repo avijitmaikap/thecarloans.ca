@@ -8,7 +8,7 @@ function Post({title, description, btn_text, btn_link, img_src, img_first, blue_
 
     function postImg() {
         return (
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
                                 <div className="post-img">
                                     <img src= {img_src} alt=""/>
     
@@ -20,7 +20,7 @@ function Post({title, description, btn_text, btn_link, img_src, img_first, blue_
     
     function postContent() {
         return(
-            <div className="col-6 my-auto">
+            <div className="col-12 col-lg-6 my-auto">
                                 <div className="post-content">
                                     <h3>{title}</h3>
                                     <p>{description}</p>
@@ -37,7 +37,7 @@ function Post({title, description, btn_text, btn_link, img_src, img_first, blue_
 
     function  defaultPost() {
         return (
-            <div className="col-6 my-auto">
+            <div className="col-12 col-lg-6 my-auto">
                                 <div className="post-content">
                                     <h3>{title}</h3>
                                     <p>{description}</p>

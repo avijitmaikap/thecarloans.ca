@@ -27,7 +27,7 @@ function Partners() {
                <div className="row">
                    {
                        partners_img.map(image => (
-                        <div className="col-2">
+                        <div className="col-3 col-lg-2">
                             <img src= {image} alt=""/>
                         </div>
                        ))

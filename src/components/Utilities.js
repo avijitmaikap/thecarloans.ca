@@ -10,7 +10,7 @@ export const SectionTitle = ({ title }) => {
   };
 
   export const WorksCol = ({src, title, description}) => {
-      return <div className="col-4">
+      return <div className="col-12 col-md-4">
       <div className="work-icon">
           <img src = {src} alt=""/>
 
@@ -27,7 +27,7 @@ export const SectionTitle = ({ title }) => {
   }
 
   export const Achievement = ({src, count, description}) => {
-    return <div className="col-4 achievement">
+    return <div className="col-12 col-md-4 achievement">
     <div className="achievement-img">
         <img src={src} alt=""/>
 
@@ -109,7 +109,7 @@ export const SectionTitle = ({ title }) => {
   };
 
   export const FooterOne =() => {
-    return <div className="col-5">
+    return <div className="col-12 col-md-8 col-lg-5">
     <div className="footer-1">
         <div className="brand-logo">
             <h1>TheCarLoans.ca</h1>
@@ -138,7 +138,7 @@ export const SectionTitle = ({ title }) => {
   }
 
   export const FooterTwo = ({links, title}) => {
-    return <div className="col-2">
+    return <div className="col-6 col-lg-2">
     <div className="footer-2">
         <h4>{title}</h4>
         <ul>
@@ -156,8 +156,8 @@ export const SectionTitle = ({ title }) => {
   }
 
   export const ContactCol = ({icon, title, description}) => {
-    return <div className="col-4">
-    <div className="contact-wrapper">
+    return <div className="col-12 col-lg-4">
+    <div className="contact-wrapper pb-2">
         <div className="contact-icon">
             {icon}
         </div>
@@ -184,7 +184,7 @@ export const SectionTitle = ({ title }) => {
 
   export const FooterThree = ({title}) => {
     return (
-      <div className="col-3">
+      <div className="col-12 col-lg-3">
         <div className="footer-3">
           <h4>{title}</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.5112798924374!2d-79.28715464926066!3d43.69992275732413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4ce838606967f%3A0x3fb5bad2e71f32da!2s263%20Pharmacy%20Ave%2C%20Scarborough%2C%20ON%20M1L%203E8!5e0!3m2!1sen!2sca!4v1639149727184!5m2!1sen!2sca"  allowfullscreen="" loading="lazy"></iframe>

@@ -1,18 +1,19 @@
 import { createContext, useState } from "react";
 import App from "./App";
+import emailjs from "emailjs-com";
 
 const Context = createContext();
 
 export default function Provider() {
   const [state, setState] = useState({
-    vehicleType:"CAR",
+    vehicleType:"car",
     step: 0,
     fname: "",
     lname: "",
     email:"",
     mobile:"",
-    select_car:"",
-    price:""
+    brands:"honda",
+    budget:"$150-$300"
   });
 
   const handleChange = (k, v) => {
@@ -23,8 +24,10 @@ export default function Provider() {
     });
   };
 
-  const submit = () => {
-    
+  const submit = async () => {
+    const response = await emailjs.send(process.env.EMAIL_SERVICE, process.env.EMAIL_TEMPLATE, state, process.env.EMAIL_USERID);
+    console.log(response)
+    setState({ ...state, step: state.step + 1 });
   };
 
   const next = () => {

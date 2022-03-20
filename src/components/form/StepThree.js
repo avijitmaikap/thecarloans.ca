@@ -12,18 +12,17 @@ export default function StepThree({ val }) {
           }}
         >
           <option value="honda" selected>Honda</option>
-          <option value="BMW">Toyota</option>
-          <option value="Tata">Hyundai</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Hyundai">Hyundai</option>
           <option value="mazda">Mazda</option>
-          <option value="Tata">Ford</option>
-          <option value="Tata">BMW</option>
-          <option value="Tata">Mercedes</option>
-          <option value="Tata">Audi</option>
-          <option value="Tata">Tata</option>
-          <option value="Tata">Tata</option>
-          <option value="Tata">Tata</option>
-          <option value="Tata">Tata</option>
-          <option value="Tata">Tata</option>
+          <option value="Ford">Ford</option>
+          <option value="BMW">BMW</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Audi">Audi</option>
+          <option value="Lexus">Lexus</option>
+          <option value="Dodge">Dodge</option>
+          <option value="GMC">GMC</option>
+          <option value="Others">Others</option>
         </select>
 
         <select

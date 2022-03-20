@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="App">
       <Home/>
+
+      <a className="call text-decoration-none" href="tel:6477048938"><i className="fas fa-phone-alt"></i></a> 
     </div>
   );
 }

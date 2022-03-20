@@ -15,9 +15,9 @@ function Success() {
             </div>
                 <h1>Congratulations !</h1>
                 <h3>Your application has been submitted.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, iste deleniti eum necessitatibus voluptatibus in</p>
+                <p>One of our representative will be in touch very shortly with some follow up questions to complete your pre-approval and get you into your new car!</p>
 
-                <a href="#6477048938" className="btn rounded-pill btn-rounded">
+                <a href="tel:6477048938" className="btn rounded-pill btn-rounded">
               Call Us
               <span>
                 <i className="fas fa-phone-alt"></i>

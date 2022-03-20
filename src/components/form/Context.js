@@ -25,7 +25,9 @@ export default function Provider() {
   };
 
   const submit = async () => {
-    const response = await emailjs.send(process.env.EMAIL_SERVICE, process.env.EMAIL_TEMPLATE, state, process.env.EMAIL_USERID);
+    console.log(process.env.REACT_APP_EMAIL_USERID)
+    const response = await emailjs.send(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE, state, process.env.REACT_APP_EMAIL_USERID);
+    
     console.log(response)
     setState({ ...state, step: state.step + 1 });
   };

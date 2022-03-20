@@ -25,7 +25,7 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#home">
                   Home
                 </a>
               </li>
@@ -35,8 +35,8 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  Credit Resources
+                <a className="nav-link" href="#works">
+                  How it works
                 </a>
               </li>
               <li className="nav-item">
@@ -50,14 +50,14 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#faq">
                   FAQ
                 </a>
               </li>
             </ul>
   
             <button type="button" className="btn rounded-pill btn-rounded">
-              +1 6477048938
+              <a className="text-decoration-none text-black" href="tel:6477048938">+1-6477048938</a> 
               <span>
                 <i className="fas fa-phone-alt"></i>
               </span>

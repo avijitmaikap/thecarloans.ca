@@ -15,22 +15,22 @@ function Footer() {
         },
         {
             text:"Our Partners",
-            link:"#"
+            link:"#partners"
         },
         {
             text:"Trade-In Your Car",
             link:"#"
         },
         {
-            text:"Reviews",
-            link:"#"
+            text:"Achievements",
+            link:"#achievements"
         }
     ] ;
 
     const links_2 = [
         {
             text:"How It Works",
-            link:"#"
+            link:"#works"
         },
         {
             text:"How We Can Help",

@@ -11,6 +11,7 @@ import Footer from '../components/Footer'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Social from '../components/Social'
+import Copyright from '../components/Copyright'
 
 function Home() {
     return (
@@ -48,6 +49,7 @@ function Home() {
             <Contact/>
             <Social/>
             <Footer/>
+            <Copyright/>
             
 
         </div>

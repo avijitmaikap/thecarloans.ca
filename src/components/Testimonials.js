@@ -36,46 +36,41 @@ export default function Testimonials() {
                 {/** carousel must be place here to do carousel function properly */}
                 <TestimonialCard
                   src="./assets/testimonials/client-1.jpg"
-                  name="Uhuru Kenyatta"
-                  designation="CEO, VYMaps"
-                  comment="  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio."
+                  name="Daniel"
+                  // designation=", VYMaps"
+                  comment="  These folks come highly recommended! They're fantastic. They made buying a car a pleasurable experience. I'm quite pleased with my purchase and will be returning. The team was really courteous and professional in getting me all set up in my vehicle. I have nothing but positive things to say about my time at thecarloans."
                 />
               </div>
               <div class="carousel-item">
                 <TestimonialCard
                   src="./assets/testimonials/client-2.jpg"
-                  name="ClaireBelle Zawadi"
-                  designation="Global brand manager"
-                  comment="  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio."
+                  name="Kayla"
+                  // designation="Global brand manager"
+                  comment="  Thecarloans was a fantastic experience for me! As a single mother on a tight budget, I could never have envisioned myself driving a car like this! Karan was kind and attentive, and he not only made me feel at ease during the process, but he also offered me hope! I will unquestionably suggest thecarloans.ca to my family and acquaintances in the market for a vehicle loan. Thank you very much!"
                 />
               </div>
               <div class="carousel-item">
                 <TestimonialCard
                   src="./assets/testimonials/client-3.jpg"
-                  name="Joy Marete"
-                  designation="Finance Manager"
-                  comment="  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio."
+                  name="Felicia"
+                  // designation="Finance Manager"
+                  comment="  Alan was the manager who helped me get my car. He was so efficient and knowledgeable about the whole process. Their methods aim to help improve your credit score and the interest rates are actually more reasonable than most dealerships. This is not a paid plug. I genuinely am happy I chose thecarloans. Ask for Alan!"
                 />
               </div>
               <div class="carousel-item">
                 <TestimonialCard
                   src="./assets/testimonials/client-4.jpg"
-                  name="Uhuru Kenyatta"
-                  designation="CEO, VYMaps"
-                  comment="  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio."
+                  name="Sebastian"
+                  // designation="CEO, VYMaps"
+                  comment="  I found it difficult to obtain accepted for a truck loan at other dealerships since I had been self-employed for the previous ten years. These guys saved me months of hunting at other vendors by doing more in two hours. Thank you very much!"
                 />
               </div>
               <div class="carousel-item">
                 <TestimonialCard
                   src="./assets/testimonials/client-5.jpg"
-                  name="Patrick Muriungi"
-                  designation="CEO & founder"
-                  comment="  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio."
+                  name="Patrick"
+                  // designation="CEO & founder"
+                  comment="  Kind, efficient, and well-informed. These people know what they're talking about! Thank you for your approval!"
                 />
               </div>
             </div>

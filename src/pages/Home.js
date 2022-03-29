@@ -8,7 +8,7 @@ import Post from '../components/Post'
 import Partners from '../components/Partners'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
-import Faq from '../components/Faq'
+// import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Social from '../components/Social'
 import Copyright from '../components/Copyright'
@@ -45,7 +45,7 @@ function Home() {
             />
             <Partners/>
             <Testimonials/>
-            <Faq/>
+            {/* <Faq/> */}
             <Contact/>
             <Social/>
             <Footer/>

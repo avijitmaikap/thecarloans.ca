@@ -49,11 +49,11 @@ function NavBar() {
                   Contact
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#faq">
                   FAQ
                 </a>
-              </li>
+              </li> */}
             </ul>
   
             <button type="button" className="btn rounded-pill btn-rounded">

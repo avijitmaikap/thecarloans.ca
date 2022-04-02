@@ -1,13 +1,14 @@
 import React from 'react'
 import "../styles/navbar.scss"
+import {NavLink} from "react-router-dom"
 
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg menus navbar-dark shadow fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             thecarloans.ca
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,14 +26,14 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/aboutus">
+                <NavLink className="nav-link" to="/aboutus">
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#works">

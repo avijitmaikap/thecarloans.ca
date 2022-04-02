@@ -46,7 +46,7 @@ export default function Testimonials() {
                   src="./assets/testimonials/client-2.jpg"
                   name="Kayla"
                   // designation="Global brand manager"
-                  comment="  Thecarloans was a fantastic experience for me! As a single mother on a tight budget, I could never have envisioned myself driving a car like this! Karan was kind and attentive, and he not only made me feel at ease during the process, but he also offered me hope! I will unquestionably suggest thecarloans.ca to my family and acquaintances in the market for a vehicle loan. Thank you very much!"
+                  comment="  Thecarloans was a fantastic experience for me! As a single mother on a tight budget, I could never have envisioned myself driving a car like this! The staff was kind and attentive, and he not only made me feel at ease during the process, but he also offered me hope! I will unquestionably suggest thecarloans.ca to my family and acquaintances in the market for a vehicle loan. Thank you very much!"
                 />
               </div>
               <div class="carousel-item">
@@ -54,7 +54,7 @@ export default function Testimonials() {
                   src="./assets/testimonials/client-3.jpg"
                   name="Felicia"
                   // designation="Finance Manager"
-                  comment="  Alan was the manager who helped me get my car. He was so efficient and knowledgeable about the whole process. Their methods aim to help improve your credit score and the interest rates are actually more reasonable than most dealerships. This is not a paid plug. I genuinely am happy I chose thecarloans. Ask for Alan!"
+                  comment="  The manager who helped me get my car. He was so efficient and knowledgeable about the whole process. Their methods aim to help improve your credit score and the interest rates are actually more reasonable than most dealerships. This is not a paid plug. I genuinely am happy I chose thecarloans."
                 />
               </div>
               <div class="carousel-item">

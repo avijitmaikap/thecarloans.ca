@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function Result({ val }) {
+  const [agree,setAgree] = useState(false)
   return (
     <div className="result">
       
@@ -8,12 +11,12 @@ export default function Result({ val }) {
       <h2>One Step Away</h2>
       <h3>To Finish up !</h3>
       <div className ="confirmation">
-        <input type="checkbox"/>
+        <input type="checkbox" onChange = {()=>setAgree(!agree)}/>
         <span>
           I am over 18 years old
         </span>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur magnam in alias facere suscipit placeat neque iste culpa quam similique laboriosam,
+        Your information is protected by our privacy policy. By submitting this form you agree to our terms and conditions.
         </p>
       </div>
 
@@ -24,7 +27,7 @@ export default function Result({ val }) {
               <i class="far fa-edit"></i>
             </span>
           </button>
-          <button onClick={val.submit} type="button" className="rounded-pill btn-rounded">
+          <button onClick={val.submit} disabled = {!agree} type="button" className="rounded-pill btn-rounded">
             SUBMIT
               <span>
               <i class="fas fa-check"></i>

@@ -5,8 +5,8 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg menus navbar-dark shadow fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#"> 
-            TheCarLoans.ca
+          <a className="navbar-brand" href="/">
+            thecarloans.ca
           </a>
           <button
             className="navbar-toggler"
@@ -25,12 +25,12 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skills">
+                <a className="nav-link" href="/aboutus">
                   About Us
                 </a>
               </li>
@@ -39,11 +39,11 @@ function NavBar() {
                   How it works
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#portfolio">
                   Inventory
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
                   Contact

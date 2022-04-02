@@ -1,22 +1,18 @@
 
 import React from 'react'
-import NavBar from '../components/Navbar'
 import Header from '../components/Header'
 import Works from '../components/Works'
 import Achievements from '../components/Achievements'
 import Post from '../components/Post'
 import Partners from '../components/Partners'
 import Testimonials from '../components/Testimonials'
-import Footer from '../components/Footer'
 // import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Social from '../components/Social'
-import Copyright from '../components/Copyright'
 
 function Home() {
     return (
         <div>
-            <NavBar/>
             <Header/>
             <Works/>
             <Achievements/>
@@ -48,10 +44,7 @@ function Home() {
             {/* <Faq/> */}
             <Contact/>
             <Social/>
-            <Footer/>
-            <Copyright/>
             
-
         </div>
     )
 }

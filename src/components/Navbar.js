@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg menus navbar-dark shadow fixed-top">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/" passHref>
             thecarloans.ca
           </NavLink>
           <button
@@ -26,12 +26,12 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink className="nav-link" to="/" passHref>
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/aboutus">
+                <NavLink className="nav-link" to="/aboutus" passHref>
                   About Us
                 </NavLink>
               </li>
